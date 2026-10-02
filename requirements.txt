@@ -1,0 +1,9 @@
+# Application dependencies (versions from the project's virtual environment)
+fastapi==0.142.2
+uvicorn==0.54.0
+SQLAlchemy==2.1.1
+PyMySQL==1.2.3
+python-dotenv==1.2.4
+python-jose==3.5.0
+passlib==1.7.4
+bcrypt==4.0.1

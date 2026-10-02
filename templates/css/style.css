@@ -1,0 +1,374 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* =========================================
+   AUTH PAGES
+========================================= */
+
+.auth-container{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.auth-box{
+
+    width:400px;
+
+    background:#0b1120;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    border:1px solid #1e293b;
+
+    box-shadow:0 0 25px rgba(0,0,0,0.4);
+}
+
+.auth-box h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    font-weight:bold;
+}
+
+.form-control,
+.form-select{
+
+    background:#1e293b !important;
+
+    border:none !important;
+
+    color:white !important;
+
+    margin-bottom:15px;
+
+    height:45px;
+}
+
+textarea.form-control{
+
+    min-height:120px;
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    background:#1e293b !important;
+
+    color:white !important;
+
+    box-shadow:none !important;
+
+    border:1px solid #3b82f6 !important;
+}
+
+/* PLACEHOLDER */
+
+::placeholder{
+
+    color:white !important;
+
+    opacity:1;
+}
+
+/* BUTTONS */
+
+.btn-primary{
+
+    width:100%;
+
+    border:none !important;
+
+    height:45px;
+
+    background:#2563eb !important;
+
+    font-weight:bold;
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8 !important;
+}
+
+/* LINKS */
+
+a{
+
+    color:#60a5fa;
+
+    text-decoration:none;
+}
+
+a:hover{
+
+    color:#93c5fd;
+}
+
+/* =========================================
+   DASHBOARD
+========================================= */
+
+.sidebar{
+
+    width:250px;
+
+    height:100vh;
+
+    background:#111827;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    padding:20px;
+
+    border-right:1px solid #1f2937;
+}
+
+.sidebar h2{
+
+    color:#3b82f6;
+
+    margin-bottom:40px;
+
+    font-weight:bold;
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:#cbd5e1;
+
+    text-decoration:none;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:10px;
+
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+
+    background:#1e293b;
+
+    color:white;
+}
+
+.topbar{
+
+    margin-left:250px;
+
+    height:70px;
+
+    background:#111827;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 30px;
+
+    border-bottom:1px solid #1f2937;
+}
+
+.main-content{
+
+    margin-left:250px;
+
+    padding:30px;
+}
+
+/* =========================================
+   CARDS
+========================================= */
+
+.custom-card{
+
+    background:#111827;
+
+    padding:25px;
+
+    border-radius:16px;
+
+    margin-bottom:25px;
+
+    border:1px solid #1f2937;
+}
+
+.overview-box{
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+}
+
+.overview-box h3{
+
+    font-size:35px;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+}
+
+.overview-box p{
+
+    margin:0;
+
+    color:#cbd5e1;
+}
+
+/* =========================================
+   COMPLAINT CARDS
+========================================= */
+
+.complaint-card{
+
+    background:#1e293b;
+
+    padding:20px;
+
+    border-radius:14px;
+
+    margin-bottom:20px;
+
+    border:1px solid #334155;
+}
+
+.complaint-card h5{
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+}
+
+.complaint-card p{
+
+    color:#cbd5e1;
+}
+
+/* =========================================
+   STATUS BADGES
+========================================= */
+
+.status-badge{
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    display:inline-block;
+}
+
+.pending{
+
+    background:#f59e0b;
+
+    color:black;
+}
+
+.assigned{
+
+    background:#3b82f6;
+
+    color:white;
+}
+
+.resolved{
+
+    background:#10b981;
+
+    color:white;
+}
+
+/* =========================================
+   PROFILE
+========================================= */
+
+.profile-box{
+
+    background:#1e293b;
+
+    padding:10px 15px;
+
+    border-radius:10px;
+}
+
+/* =========================================
+   ADMIN BUTTONS
+========================================= */
+
+.btn-danger{
+
+    background:#dc2626 !important;
+
+    border:none !important;
+}
+
+.btn-danger:hover{
+
+    background:#b91c1c !important;
+}
+
+.btn-success{
+
+    background:#10b981 !important;
+
+    border:none !important;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar{
+
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111827;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#334155;
+
+    border-radius:10px;
+}
